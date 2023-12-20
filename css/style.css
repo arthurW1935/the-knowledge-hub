@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Cinzel+Decorative:wght@400;700&family=Darker+Grotesque&family=Gloria+Hallelujah&family=Laila&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Gloria+Hallelujah&family=Laila&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Darker+Grotesque&family=Livvic:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Darker+Grotesque&family=Livvic:wght@300&family=Open+Sans&family=Spline+Sans+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Darker+Grotesque&family=Livvic:wght@300&family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Gloria+Hallelujah&display=swap');
+body{
+  background: url('/images\\background.jpg') center center fixed !important;
+  background-size: cover !important;
+  /* background-size: 100% 100%; */
+  background-repeat: no-repeat !important;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Playfair Display', serif;
+  /* font-family: 'Laila', serif; */
+  font-weight: bold !important;
+}
+p{
+  /* font-family: 'Laila', serif; */
+  /* font-family: 'Darker Grotesque', sans-serif; */
+  /* font-family: 'Livvic', sans-serif; */
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Spline Sans Mono', monospace;
+  /* font-weight: 600 !important; */
+  /* font-size: 1.2rem; */
+}
+nav{
+  background: #ffffffb0 !important;
+  z-index: 100;
+}
+
+.navbar-brand{
+  font-size: max(2vw,20px) !important;
+  /* color: white !important; */
+}
+
+.nav-link{
+  font-size: 1.2rem !important;
+  /* color: rgb(255, 255, 255) !important; */
+}
+.navbar-collapse{
+  flex-grow: 0 !important;
+}
+
+.carousel-image{
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+  color: white; /* Text color */
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.card{
+  /* background: #fde59f !important; */
+}
+
+.card-img-top{
+  height: 15rem;
+  object-fit: cover;
+}
+
+#programs{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: rgba(91, 116, 191, 0.91);
+}
+
+#quoteCarousel{
+  padding: 5vw;
+  background: #d54e92e8;
+  /* 92bc69 */
+}
+
+#quoteCarousel h1{
+  padding: 10px;
+}
+
+#quoteCarousel .carousel-inner {
+  padding: 10px 15vw 40px 15vw;
+}
+
+#quoteCarousel .carousel-item{
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.author {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#footer{
+  background: #0a0a0a;
+  color: white;
+}
+
+#footer .nav-link, #footer p, #footer h3{
+  color: white !important;
+}
+
+#contact h1{
+  /* font-family: 'Dancing Script', cursive !important; */
+  /* font-family: 'Gloria Hallelujah', cursive; */
+  /* font-family: 'Ephesis', cursive; */
+  font-family: 'Allura', cursive;
+  
+  /* font-family: 'Satisfy', cursive !important; */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.box-pop{
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  /* line-height: 200px; */
+  transition: scale 0.5s ease;
+}
+
+/* Add a shadow effect on hover */
+.box-pop:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  scale: 1.1;
+}
+
+.back-color{
+  background: rgba(255, 255, 255, 0.884) !important;
+}
+.shine{
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, RGB(255 170 1) 50%, rgba(255,255,255,0) 100%);
+  /* background: #3498db; */
+}
+
+.bt {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #183153;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: none;
+ }
+ 
+ .bt:after {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  background: rgb(99, 114, 187);
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+  /* color: black; */
+ }
+
+.bt:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+ }
+ 
+.bt a {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 18px 25px;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+ }
+ 
+.bt:hover span {
+  color: #183153;
+  animation: scaleUp 0.3s ease-in-out;
+ }
+ 
+ @keyframes scaleUp {
+  0% {
+   transform: scale(1);
+  }
+ 
+  50% {
+   transform: scale(0.95);
+  }
+ 
+  100% {
+   transform: scale(1);
+  }
+ }
+ 

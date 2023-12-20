@@ -1,0 +1,31 @@
+.icon-div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.features{
+    /* background: #c7d6e9; */
+}
+
+.playschool{
+    height: 15rem;
+    width: 20rem;
+    /* margin: 10px; */
+    padding: 10px;
+    object-fit: cover;
+}
+.programs-head{
+    margin: 0px 0px;
+    background: rgb(45,129,252);
+    color: #fff !important;
+    padding: 15px;
+
+}
+@media screen and (max-width: 320px) {
+    .playschool{
+        /* height: 10rem; */
+        width: 100vw;
+    }
+    
+}
