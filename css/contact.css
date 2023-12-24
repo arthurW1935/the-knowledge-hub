@@ -10,3 +10,17 @@
 #contact-info{
     padding: 20px;
 }
+
+.map iframe{
+    width: 40vw;
+}
+
+@media (max-width: 1400px) {
+    .map iframe{
+        width: 69vw;
+    }
+}
+
+i {
+    font-size: large;
+}
