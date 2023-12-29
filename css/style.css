@@ -1,38 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display&family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Cinzel+Decorative:wght@400;700&family=Darker+Grotesque&family=Gloria+Hallelujah&family=Laila&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Gloria+Hallelujah&family=Laila&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Darker+Grotesque&family=Livvic:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Darker+Grotesque&family=Livvic:wght@300&family=Open+Sans&family=Spline+Sans+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Darker+Grotesque&family=Livvic:wght@300&family=Open+Sans&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Gloria+Hallelujah&display=swap');
+
+
 body{
   background: url('/images\\background.jpg') center center fixed !important;
   background-size: cover !important;
-  /* background-size: 100% 100%; */
   background-repeat: no-repeat !important;
 }
 
 h1,h2,h3,h4,h5{
   font-family: 'Playfair Display', serif;
-  /* font-family: 'Laila', serif; */
   font-weight: bold !important;
 }
 p{
-  /* font-family: 'Laila', serif; */
-  /* font-family: 'Darker Grotesque', sans-serif; */
-  /* font-family: 'Livvic', sans-serif; */
-  /* font-family: 'Open Sans', sans-serif; */
   font-family: 'Spline Sans Mono', monospace;
-  /* font-weight: 600 !important; */
-  /* font-size: 1.2rem; */
 }
 nav{
   background: #ffffffb0 !important;
@@ -41,12 +25,10 @@ nav{
 
 .navbar-brand{
   font-size: max(2vw,20px) !important;
-  /* color: white !important; */
 }
 
 .nav-link{
   font-size: 1.2rem !important;
-  /* color: rgb(255, 255, 255) !important; */
 }
 .navbar-collapse{
   flex-grow: 0 !important;
@@ -57,15 +39,16 @@ nav{
   width: 100%;
   object-fit: cover;
 }
-
-.carousel-caption {
-  background: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
-  color: white; /* Text color */
-  padding: 20px; /* Adjust padding as needed */
+@media (max-width: 768px) {
+  .carousel-image{
+    height: 60vh;
+  }
 }
 
-.card{
-  /* background: #fde59f !important; */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); 
+  color: white;
+  padding: 20px; 
 }
 
 .card-img-top{
@@ -74,7 +57,7 @@ nav{
 }
 
 #programs{
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 50px;
   background: rgba(91, 116, 191, 0.91);
 }
@@ -118,12 +101,7 @@ nav{
 }
 
 #contact h1{
-  /* font-family: 'Dancing Script', cursive !important; */
-  /* font-family: 'Gloria Hallelujah', cursive; */
-  /* font-family: 'Ephesis', cursive; */
   font-family: 'Allura', cursive;
-  
-  /* font-family: 'Satisfy', cursive !important; */
 }
 
 body::-webkit-scrollbar {
@@ -134,11 +112,9 @@ body::-webkit-scrollbar {
   background-color: #3498db;
   color: #fff;
   text-align: center;
-  /* line-height: 200px; */
   transition: scale 0.5s ease;
 }
 
-/* Add a shadow effect on hover */
 .box-pop:hover {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   scale: 1.1;
@@ -149,7 +125,6 @@ body::-webkit-scrollbar {
 }
 .shine{
   background: linear-gradient(90deg, rgba(255,255,255,0) 0%, RGB(255 170 1) 50%, rgba(255,255,255,0) 100%);
-  /* background: #3498db; */
 }
 
 .bt {
@@ -173,7 +148,6 @@ body::-webkit-scrollbar {
   position: absolute;
   transition: all 0.4s ease-in-out;
   right: 0;
-  /* color: black; */
  }
 
 .bt:hover::after {
